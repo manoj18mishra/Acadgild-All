@@ -1,0 +1,27 @@
+,Clean Up Id,Training Score,Test Score,Adjusted R^2 Train,Adjusted R^2 Test,Comments
+0,1,0.82,0.79,0.81,0.78,"Removed Id, date, sqft_living, sqft_lot,view, lat, long, yr_built, year_renovated
+Created age
+Updated bathrooms=bathrooms*bedrooms
+Grouped bedrooms,bathrooms,floors,
+Dummify zipcode
+Quantiled sqft_living15"
+1,2,0.74,0.74,0.74,0.73,"Removed Id, date, sqft_living, sqft_lot,view, lat, long, yr_built, year_renovated, zipcode
+Append City
+Created age
+Updated bathrooms=bathrooms*bedrooms
+Grouped bedrooms,bathrooms,floors,
+Dummify City
+Quantiled sqft_living15"
+2,3,0.82,0.79,0.81,0.78,"Removed Id, date, sqft_living, sqft_lot,view, lat, long, yr_built, year_renovated
+Created age
+Updated bathrooms=bathrooms*bedrooms
+Grouped bedrooms,bathrooms,floors,
+Dummify zipcode
+Quantiled sqft_living15
+Data is scaled"
+3,4,0.82,0.79,0.81,0.78,"Removed Id, date, sqft_living, sqft_lot,view, lat, long, yr_built, year_renovated
+Created age
+Updated bathrooms=bathrooms*bedrooms
+Grouped bedrooms,bathrooms,floors,
+Dummify zipcode
+Quantiled sqft_living15"

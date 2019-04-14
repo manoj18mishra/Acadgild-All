@@ -1,0 +1,7 @@
+,Clean Up Id,Training Score,Test Score,Adjusted R^2 Train,Adjusted R^2 Test,Comments
+0,1,0.91,0.91,0.6,0.56,"Removed Id, date, sqft_living, sqft_lot,view, lat, long, yr_built, year_renovated
+Created age
+Updated bathrooms=bathrooms*bedrooms
+Grouped bedrooms,bathrooms,floors,
+Dummify zipcode
+Quantiled sqft_living15"
